@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 110px;
+}
+  
+.columnContainer {
+    display: flex;
+    align-items: center; 
+}
+  
+.leftColumn, .rightColumn {
+    flex-basis: 50%;
+}
+  
+.mainHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+  
+.subHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+  
+.description {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+  
+.line {
+    width: 1px;
+    background-color: #6A6A6A; 
+    height: 80%; 
+    margin: 0 20px; 
+}
+  
+
+  
+  
+  
