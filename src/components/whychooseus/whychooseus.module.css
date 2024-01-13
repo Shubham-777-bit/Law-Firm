@@ -1,0 +1,87 @@
+.whyChooseUsSection {
+    text-align: center;
+    margin-top: 170px; 
+    height: 682px; 
+    ;
+  }
+  
+  .sectionHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color: #333; 
+    margin-bottom: 97px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; 
+    height:377px;
+    gap: 31px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+    width: 359px; 
+    height: 377px;
+    padding: 20px;
+    border: 1px solid #333; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    position: relative;
+  }
+
+  .card:hover {
+    background-color: #333;
+  }
+  
+  .card .imageContainer {
+    width: 101px;
+    height: 101px;
+    /* position: ; */
+    top: 28px;
+    left: 24px;
+  }
+
+  .card .successRateContainer {
+    color: white;
+    width: 215px;
+    height: 24px;
+    margin-top: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .card .infoContainer {
+    width: 293px;
+    height: 69px;
+    margin-top: 26px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: whitesmoke;
+  }
+
+  .card .button {
+    width: 121px;
+    height: 43px;
+    background-color: #E3B748;
+    margin-top: 22px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 23px;
+  }
+
+  
