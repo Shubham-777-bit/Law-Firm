@@ -9,6 +9,7 @@ import ClientComponent from './components/Clinet_Section/Client';
 import FAQ from './components/FAQ/faq';
 // import Faq from './components/f/f';
 import CustomizedAccordions from './components/accordion/accordion';
+import NewsletterSubscription from './components/NewsletterSubscription/NewsletterSubscription';
 
 function App() {
   return (
@@ -21,8 +22,7 @@ function App() {
       <ClientComponent/>
       <OurTeam/> 
       <FAQ/>
-      {/* <Faq/> */}
-      <CustomizedAccordions/>
+      <NewsletterSubscription/>
     </div>
   );
 }
