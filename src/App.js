@@ -10,6 +10,7 @@ import FAQ from './components/FAQ/faq';
 // import Faq from './components/f/f';
 import CustomizedAccordions from './components/accordion/accordion';
 import NewsletterSubscription from './components/NewsletterSubscription/NewsletterSubscription';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <OurTeam/> 
       <FAQ/>
       <NewsletterSubscription/>
+      <Footer/>
     </div>
   );
 }
